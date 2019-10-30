@@ -1,7 +1,7 @@
 ---
 deployment:
- tasks:
- - export DEPLOYPATH=/home/user/public_html/
- # try to keep copies minimal to save space in cPanel, i.e., don't `cp *`
- - /bin/cp index.html $DEPLOYPATH
- 
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    # try to keep copies minimal to save space in cPanel, i.e., don't `cp *`
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp css/* $DEPLOYPATH/css
