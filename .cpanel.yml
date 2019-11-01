@@ -5,3 +5,4 @@ deployment:
     # try to keep copies minimal to save space in cPanel, i.e., don't `cp *`
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp css/* $DEPLOYPATH/css/
+    - /bin/cp images/* $DEPLOYPATH/images/
