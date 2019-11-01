@@ -24,8 +24,9 @@ img {
 }
 
 div.links {
+    width: 570px;
+    margin: 0 auto;
     display: flex;
-    width: 100%;
     justify-content: space-evenly;
 }
 
@@ -36,7 +37,7 @@ div.links * {
 div.links p {
     margin: 0;
     font-weight: bolder;
-    color: #414039; /* sinister-slate */
+    color: #646260; /* graphical-gray */
 }
 
 div.links p.selected {
@@ -46,9 +47,14 @@ div.links p.selected {
 div.links a {
     color: #414039; /* sinister-slate */
     text-decoration: none;
+    border-bottom: 1px solid #FFF;
+
+    transition: border .1s linear, color .1s linear;
 }
 
 div.links a:hover {
-    border-bottom: 1px solid #2695E1; /* brainy-blue */
+    border-bottom-color: #2695E1; /* brainy-blue */
     color: #2695E1; /* brainy-blue */
+
+    transition: border .1s linear, color .1s linear;
 }
