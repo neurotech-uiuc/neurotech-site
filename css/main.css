@@ -48,8 +48,6 @@ div.links a {
     color: #414039; /* sinister-slate */
     text-decoration: none;
     border-bottom: 1px solid #FFF;
-
-    transition: border .1s linear, color .1s linear;
 }
 
 div.links a:hover {
