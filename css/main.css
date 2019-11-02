@@ -1,3 +1,58 @@
+/*
+COLOR GLOSSARY:
+
+brainy-blue: #2695E1
+graphical-gray: #646260
+sinister-slate: #414039
+
+=================================================
+
+FONT GLOSSARY:
+prefix: https://fonts.googleapis.com/css?family=
+
+Titillium Web: https://fonts.google.com/specimen/Titillium+Web?selection.family=Titillium+Web
+
+*/
+
 * {
     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+    margin: 30px 0;
+}
+
+div.links {
+    width: 570px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.links * {
+    padding: 0 5px;
+}
+
+div.links p {
+    margin: 0;
+    font-weight: bolder;
+    color: #646260; /* graphical-gray */
+}
+
+div.links p.selected {
+    color: #2695E1; /* brainy-blue */
+}
+
+div.links a {
+    color: #414039; /* sinister-slate */
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+}
+
+div.links a:hover {
+    border-bottom-color: #2695E1; /* brainy-blue */
+    color: #2695E1; /* brainy-blue */
+
+    transition: border .1s linear, color .1s linear;
 }
