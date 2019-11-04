@@ -1,8 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/neurotech/public_html/
-    # try to keep copies minimal to save space in cPanel, i.e., don't `cp *`
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp css/* $DEPLOYPATH/css/
-    - /bin/cp images/* $DEPLOYPATH/images/
+    - /home/neurotech/run-deploy.sh
