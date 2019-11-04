@@ -1,9 +1,17 @@
 /*
 COLOR GLOSSARY:
 
+melancholy-midnight: #011638
+chilling-charcoal: #364156
+classy-clay: #77979b
+synergistic-cyan: #dff8eb
+ghostly-gray: #cdcdcd
+
+----- OLD COLORS ------
 brainy-blue: #2695E1
 graphical-gray: #646260
 sinister-slate: #414039
+-----------------------
 
 =================================================
 
@@ -19,8 +27,18 @@ Titillium Web: https://fonts.google.com/specimen/Titillium+Web?selection.family=
     font-family: 'Titillium Web', sans-serif;
 }
 
+p {
+    color: #cdcdcd; /* ghostly-gray */
+}
+
+html, body {
+    background: #011638; /* melancholy-midnight */
+}
+
 img {
-    margin: 30px 0;
+    margin: 0;
+    width: 300px;
+    height: 245px;
 }
 
 div.links {
@@ -37,22 +55,22 @@ div.links * {
 div.links p {
     margin: 0;
     font-weight: bolder;
-    color: #646260; /* graphical-gray */
+    color: #cdcdcd; /* ghostly-gray */
 }
 
 div.links p.selected {
-    color: #2695E1; /* brainy-blue */
+    color: #dff8eb; /* synergistic-cyan */
 }
 
 div.links a {
-    color: #414039; /* sinister-slate */
+    color: #cdcdcd; /* ghostly-gray */
     text-decoration: none;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #011638; /* melancholy-midnight */;
 }
 
 div.links a:hover {
-    border-bottom-color: #2695E1; /* brainy-blue */
-    color: #2695E1; /* brainy-blue */
+    border-bottom-color: #dff8eb; /* synergistic-cyan */
+    color: #dff8eb; /* synergistic-cyan */
 
     transition: border .1s linear, color .1s linear;
 }
