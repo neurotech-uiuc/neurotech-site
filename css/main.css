@@ -1,9 +1,17 @@
 /*
 COLOR GLOSSARY:
 
+melancholy-midnight: #011638
+chilling-charcoal: #364156
+classy-clay: #77979b
+synergistic-cyan: #dff8eb
+ghostly-gray: #cdcdcd
+
+----- OLD COLORS ------
 brainy-blue: #2695E1
 graphical-gray: #646260
 sinister-slate: #414039
+-----------------------
 
 =================================================
 
@@ -19,8 +27,49 @@ Titillium Web: https://fonts.google.com/specimen/Titillium+Web?selection.family=
     font-family: 'Titillium Web', sans-serif;
 }
 
+.triangle {
+    position: fixed;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#left {
+    left: 0;
+    top: 0;
+
+    border-width: 120vh 20vw 0 0;
+    border-color: #364156 transparent transparent transparent; /* chilling-charcoal */
+}
+
+#right-bottom {
+    right: 0;
+    bottom: 0;
+
+    border-width: 0 0 120vh 20vw;
+    border-color: transparent transparent #cdcdcd transparent; /* ghostly-gray */
+}
+
+#right-top {
+    right: 0;
+    bottom: 0;
+
+    border-width: 0 0 110vh 18vw;
+    border-color: transparent transparent #364156 transparent; /* chilling-charcoal */
+}
+
+p {
+    color: #cdcdcd; /* ghostly-gray */
+}
+
+html, body {
+    background: #011638; /* melancholy-midnight */
+}
+
 img {
-    margin: 30px 0;
+    margin-bottom: 0;
+    width: 300px;
+    height: 245px;
 }
 
 div.links {
@@ -37,22 +86,22 @@ div.links * {
 div.links p {
     margin: 0;
     font-weight: bolder;
-    color: #646260; /* graphical-gray */
+    color: #cdcdcd; /* ghostly-gray */
 }
 
 div.links p.selected {
-    color: #2695E1; /* brainy-blue */
+    color: #dff8eb; /* synergistic-cyan */
 }
 
 div.links a {
-    color: #414039; /* sinister-slate */
+    color: #cdcdcd; /* ghostly-gray */
     text-decoration: none;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #011638; /* melancholy-midnight */;
 }
 
 div.links a:hover {
-    border-bottom-color: #2695E1; /* brainy-blue */
-    color: #2695E1; /* brainy-blue */
+    border-bottom-color: #dff8eb; /* synergistic-cyan */
+    color: #dff8eb; /* synergistic-cyan */
 
     transition: border .1s linear, color .1s linear;
 }
