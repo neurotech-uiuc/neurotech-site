@@ -1,0 +1,57 @@
+/*
+COLOR GLOSSARY:
+
+melancholy-midnight: #011638
+chilling-charcoal: #364156
+classy-clay: #77979b
+synergistic-cyan: #dff8eb
+ghostly-gray: #cdcdcd
+
+----- OLD COLORS ------
+brainy-blue: #2695E1
+graphical-gray: #646260
+sinister-slate: #414039
+-----------------------
+
+=================================================
+
+FONT GLOSSARY:
+prefix: https://fonts.googleapis.com/css?family=
+
+Titillium Web: https://fonts.google.com/specimen/Titillium+Web?selection.family=Titillium+Web
+Martel: https://fonts.google.com/specimen/Martel
+
+*/
+
+.columns {
+    width: 50vw;
+    height: 50vw;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#top {
+    align-items: flex-end;
+}
+
+#bottom {
+    align-items: flex-start;
+}
+
+.columns img {
+    width: 40%;
+    height: auto;
+    opacity: .8;
+    padding: 5px;
+}
+
+.columns img:hover {
+    opacity: 1;
+}

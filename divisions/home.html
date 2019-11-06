@@ -1,6 +1,7 @@
 <html>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/divisions.css">
 
   <head>
       <div class="triangle" id="left"></div>
@@ -11,8 +12,17 @@
   <body>
     <img src="../images/noesis-logo-opaque.png" />
 
-    <p>Under construction. Please check back again later.</p>
-    <p>Click <a href="https://uiucneurotech.wixsite.com/website">here</a> for our current site.</p>
+    <!-- arranging this way since there is more support for flexbox than grid -->
+    <div class="columns">
+      <div class="row" id="top">
+        <img src="../images/software-panel.png" class="left" />
+        <img src="../images/hardware-panel.png" class="right" />
+      </div>
+      <div class="row" id="bottom">
+        <img src="../images/research-panel.png" class="left" />
+        <img src="../images/outreach-panel.png" class="right" />
+      </div>
+    </div>
 
     <div class="links">
       <a href="../index.html">HOME</a>
