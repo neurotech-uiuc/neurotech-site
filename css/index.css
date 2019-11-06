@@ -24,30 +24,43 @@ Martel: https://fonts.google.com/specimen/Martel
 */
 
 div.statement {
-    width: 60vw;
+    width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 450px) {
+    div.statement {
+        width: 60vw;
+        flex-direction: row;
+    }
 }
 
 div.statement div {
     background: #364156; /* chilling-charcoal */
     padding: 15px;
     margin: 0 15px;
-    width: 30%;
     flex-grow: 1;
-    border: 2px solid #011638; /* melancholy-midnight */
 }
 
-.who-we-are {
-    position: relative;
-    left: 0;
-    margin: 0 auto;
-}
+@media (min-width: 450px) {
+    div.statement div {
+        width: 30%;
+        border: 2px solid #011638; /* melancholy-midnight */
+    }
 
-.our-mission {
-    position: relative;
-    right: 0;
-    margin: 0 auto;
+    .who-we-are {
+        position: relative;
+        left: 0;
+        margin: 0 auto;
+    }
+    
+    .our-mission {
+        position: relative;
+        right: 0;
+        margin: 0 auto;
+    }
 }
 
 div.statement h1 {
