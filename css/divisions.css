@@ -26,7 +26,7 @@ Martel: https://fonts.google.com/specimen/Martel
 .columns {
     width: 50vw;
     height: 50vw;
-    margin: 0 auto;
+    margin: -20px auto;
 }
 
 .row {
@@ -34,15 +34,7 @@ Martel: https://fonts.google.com/specimen/Martel
     height: 50%;
     
     display: flex;
-    justify-content: center;
-}
-
-#top {
-    align-items: flex-end;
-}
-
-#bottom {
-    align-items: flex-start;
+    position: relative;
 }
 
 .columns img {
@@ -50,8 +42,52 @@ Martel: https://fonts.google.com/specimen/Martel
     height: auto;
     opacity: .8;
     padding: 5px;
+    position: absolute;
+
+    transition: 
+        opacity .2s linear, 
+        left .2s linear, 
+        right .2s linear,
+        top .2s linear,
+        bottom .2s linear;
 }
 
-.columns img:hover {
+#top img {
+    bottom: 0;
+}
+
+#bottom img {
+    top: 0;
+}
+
+.left {
+    right: 50%;
+}
+
+.right {
+    left: 50%;
+}
+
+#top .left:hover {
     opacity: 1;
+    right: 55%;
+    bottom: 10%;
+}
+
+#top .right:hover {
+    opacity: 1;
+    left: 55%;
+    bottom: 10%;
+}
+
+#bottom .left:hover {
+    opacity: 1;
+    right: 55%;
+    top: 10%;
+}
+
+#bottom .right:hover {
+    opacity: 1;
+    left: 55%;
+    top: 10%;
 }
