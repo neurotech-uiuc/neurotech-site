@@ -1,0 +1,69 @@
+/*
+COLOR GLOSSARY:
+
+melancholy-midnight: #011638
+chilling-charcoal: #364156
+classy-clay: #77979b
+synergistic-cyan: #dff8eb
+ghostly-gray: #cdcdcd
+
+----- OLD COLORS ------
+brainy-blue: #2695E1
+graphical-gray: #646260
+sinister-slate: #414039
+-----------------------
+
+=================================================
+
+FONT GLOSSARY:
+prefix: https://fonts.googleapis.com/css?family=
+
+Titillium Web: https://fonts.google.com/specimen/Titillium+Web?selection.family=Titillium+Web
+Martel: https://fonts.google.com/specimen/Martel
+
+*/
+
+div.statement {
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+div.statement div {
+    background: #364156; /* chilling-charcoal */
+    padding: 15px;
+    margin: 0 15px;
+    width: 30%;
+    flex-grow: 1;
+    border: 2px solid #011638; /* melancholy-midnight */
+}
+
+.who-we-are {
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+
+.our-mission {
+    position: relative;
+    right: 0;
+    margin: 0 auto;
+}
+
+div.statement h1 {
+    color: #cdcdcd; /* ghostly-gray */
+    text-align: center;
+    font-family: "Martel", serif;
+    margin: 10px 0;
+}
+
+div.statement p {
+    color: #cdcdcd; /* ghostly-gray */
+    text-align: justify;
+    font-family: "Titillium Web", sans-serif;
+}
+
+div.statement img {
+    width: 100%;
+    height: auto;
+}
