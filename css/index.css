@@ -64,6 +64,6 @@ div.statement p {
 }
 
 div.statement img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
