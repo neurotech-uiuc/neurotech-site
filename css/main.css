@@ -75,7 +75,7 @@ img {
 
 div.links {
     width: 570px;
-    margin: 20px auto;
+    margin: 0 auto 30px auto;
     display: flex;
     justify-content: space-evenly;
 }
