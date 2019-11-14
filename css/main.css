@@ -78,9 +78,9 @@ img {
 }
 
 div.links {
-    margin: 20px auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 30px auto;
 }
 
 div.links p:not(.selected) {
@@ -90,7 +90,6 @@ div.links p:not(.selected) {
 @media (min-width: 450px) {
     div.links {
         width: 570px;
-        margin: 0 auto 30px auto;
         justify-content: space-evenly;
         flex-direction: row;
     }
@@ -98,10 +97,14 @@ div.links p:not(.selected) {
     p:not(.selected) {
         display: unset;
     }
+
+    div.links * {
+        padding: 0 5px;
+    }
 }
 
 div.links * {
-    padding: 0 5px;
+    padding: 0 15px;
 }
 
 div.links p {
