@@ -90,6 +90,7 @@ div.links p:not(.selected) {
 @media (min-width: 450px) {
     div.links {
         width: 570px;
+        margin: 0 auto 30px auto;
         justify-content: space-evenly;
         flex-direction: row;
     }
