@@ -28,35 +28,37 @@ Martel: https://fonts.google.com/specimen/Martel
     font-family: 'Titillium Web', sans-serif;
 }
 
-.triangle {
-    position: fixed;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
+@media (min-width: 450px) {
+    .triangle {
+        position: fixed;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
 
-#left {
-    left: 0;
-    top: 0;
+    #left {
+        left: 0;
+        top: 0;
 
-    border-width: 120vh 20vw 0 0;
-    border-color: #364156 transparent transparent transparent; /* chilling-charcoal */
-}
+        border-width: 120vh 20vw 0 0;
+        border-color: #364156 transparent transparent transparent; /* chilling-charcoal */
+    }
 
-#right-bottom {
-    right: 0;
-    bottom: 0;
+    #right-bottom {
+        right: 0;
+        bottom: 0;
 
-    border-width: 0 0 120vh 20vw;
-    border-color: transparent transparent #cdcdcd transparent; /* ghostly-gray */
-}
+        border-width: 0 0 120vh 20vw;
+        border-color: transparent transparent #cdcdcd transparent; /* ghostly-gray */
+    }
 
-#right-top {
-    right: 0;
-    bottom: 0;
+    #right-top {
+        right: 0;
+        bottom: 0;
 
-    border-width: 0 0 110vh 18vw;
-    border-color: transparent transparent #364156 transparent; /* chilling-charcoal */
+        border-width: 0 0 110vh 18vw;
+        border-color: transparent transparent #364156 transparent; /* chilling-charcoal */
+    }
 }
 
 p {
@@ -64,6 +66,8 @@ p {
 }
 
 html, body {
+    width: 100%;
+    margin: 0;
     background: #011638; /* melancholy-midnight */
 }
 
@@ -74,14 +78,33 @@ img {
 }
 
 div.links {
-    width: 570px;
-    margin: 0 auto 30px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 0 auto 30px auto;
+}
+
+div.links p:not(.selected) {
+    display: none;
+}
+
+@media (min-width: 450px) {
+    div.links {
+        width: 570px;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    div.links p:not(.selected) {
+        display: unset;
+    }
+
+    div.links * {
+        padding: 0 5px;
+    }
 }
 
 div.links * {
-    padding: 0 5px;
+    padding: 0 15px;
 }
 
 div.links p {

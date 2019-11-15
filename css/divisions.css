@@ -26,7 +26,7 @@ Martel: https://fonts.google.com/specimen/Martel
 .columns {
     width: 50vw;
     height: 50vw;
-    margin: -20px auto;
+    margin: 100px auto;
 }
 
 .row {
@@ -38,18 +38,27 @@ Martel: https://fonts.google.com/specimen/Martel
 }
 
 .columns img {
-    width: 40%;
+    width: 40vw;
     height: auto;
-    opacity: .8;
     padding: 5px;
     position: absolute;
+}
 
-    transition: 
-        opacity .2s linear, 
-        left .2s linear, 
-        right .2s linear,
-        top .2s linear,
-        bottom .2s linear;
+@media (min-width: 450px) {
+    .columns {
+        margin: -20px auto;
+    }
+
+    .columns img {
+        width: 40%;
+        opacity: .8;
+        transition: 
+            opacity .2s linear, 
+            left .2s linear, 
+            right .2s linear,
+            top .2s linear,
+            bottom .2s linear;
+    }
 }
 
 #top img {
