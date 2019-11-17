@@ -38,7 +38,7 @@ div.statement {
 }
 
 div.statement div {
-    background: #364156; /* chilling-charcoal */
+    background: #9db4c0; /* chilling-charcoal */
     padding: 15px;
     margin: 0 15px;
     flex-grow: 1;
@@ -47,7 +47,7 @@ div.statement div {
 @media (min-width: 450px) {
     div.statement div {
         width: 30%;
-        border: 2px solid #011638; /* melancholy-midnight */
+        border: 2px solid #424b54; /* melancholy-midnight */
     }
 
     .who-we-are {
@@ -64,14 +64,14 @@ div.statement div {
 }
 
 div.statement h1 {
-    color: #cdcdcd; /* ghostly-gray */
+    color: #dcdcdd; /* ghostly-gray */
     text-align: center;
     font-family: "Martel", serif;
     margin: 10px 0;
 }
 
 div.statement p {
-    color: #cdcdcd; /* ghostly-gray */
+    color: #dcdcdd; /* ghostly-gray */
     text-align: justify;
     font-family: "Titillium Web", sans-serif;
 }

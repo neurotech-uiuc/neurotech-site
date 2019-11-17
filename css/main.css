@@ -1,6 +1,12 @@
 /*
 COLOR GLOSSARY:
 
+#424b54
+#9db4c0
+#dcdcdd
+#fafafa
+#ffffff
+
 melancholy-midnight: #011638
 chilling-charcoal: #364156
 classy-clay: #77979b
@@ -41,7 +47,7 @@ Martel: https://fonts.google.com/specimen/Martel
         top: 0;
 
         border-width: 120vh 20vw 0 0;
-        border-color: #364156 transparent transparent transparent; /* chilling-charcoal */
+        border-color: #9db4c0 transparent transparent transparent; /* chilling-charcoal */
     }
 
     #right-bottom {
@@ -49,7 +55,7 @@ Martel: https://fonts.google.com/specimen/Martel
         bottom: 0;
 
         border-width: 0 0 120vh 20vw;
-        border-color: transparent transparent #cdcdcd transparent; /* ghostly-gray */
+        border-color: transparent transparent #dcdcdd transparent; /* ghostly-gray */
     }
 
     #right-top {
@@ -57,18 +63,18 @@ Martel: https://fonts.google.com/specimen/Martel
         bottom: 0;
 
         border-width: 0 0 110vh 18vw;
-        border-color: transparent transparent #364156 transparent; /* chilling-charcoal */
+        border-color: transparent transparent #9db4c0 transparent; /* chilling-charcoal */
     }
 }
 
 p {
-    color: #cdcdcd; /* ghostly-gray */
+    color: #dcdcdd; /* ghostly-gray */
 }
 
 html, body {
     width: 100%;
     margin: 0;
-    background: #011638; /* melancholy-midnight */
+    background: #424b54; /* melancholy-midnight */
 }
 
 img {
@@ -110,22 +116,22 @@ div.links * {
 div.links p {
     margin: 0;
     font-weight: bolder;
-    color: #cdcdcd; /* ghostly-gray */
+    color: #dcdcdd; /* ghostly-gray */
 }
 
 div.links p.selected {
-    color: #dff8eb; /* synergistic-cyan */
+    color: #ffffff; /* synergistic-cyan */
 }
 
 div.links a {
-    color: #cdcdcd; /* ghostly-gray */
+    color: #dcdcdd; /* ghostly-gray */
     text-decoration: none;
-    border-bottom: 1px solid #011638; /* melancholy-midnight */;
+    border-bottom: 1px solid #011424b54638; /* melancholy-midnight */;
 }
 
 div.links a:hover {
-    border-bottom-color: #dff8eb; /* synergistic-cyan */
-    color: #dff8eb; /* synergistic-cyan */
+    border-bottom-color: #ffffff; /* synergistic-cyan */
+    color: #ffffff; /* synergistic-cyan */
 
     transition: border .1s linear, color .1s linear;
 }
