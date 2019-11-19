@@ -1,11 +1,10 @@
 /*
 COLOR GLOSSARY:
 
-melancholy-midnight: #011638
-chilling-charcoal: #364156
-classy-clay: #77979b
-synergistic-cyan: #dff8eb
-ghostly-gray: #cdcdcd
+synergistic-cyan: #7daaaf
+aesthetic-aegean: #4e6386
+cucumber water: #f4fff3 
+magnetic-mint: #dff8eb
 
 ----- OLD COLORS ------
 brainy-blue: #2695E1
@@ -38,7 +37,7 @@ div.statement {
 }
 
 div.statement div {
-    background: #364156; /* chilling-charcoal */
+    background: #7daaaf; /* chilling-charcoal */
     padding: 15px;
     margin: 0 15px;
     flex-grow: 1;
@@ -47,7 +46,7 @@ div.statement div {
 @media (min-width: 450px) {
     div.statement div {
         width: 30%;
-        border: 2px solid #011638; /* melancholy-midnight */
+        border: 2px solid #4e6386; /* melancholy-midnight */
     }
 
     .who-we-are {
@@ -64,14 +63,14 @@ div.statement div {
 }
 
 div.statement h1 {
-    color: #cdcdcd; /* ghostly-gray */
+    color: #f4fff3; /* ghostly-gray */
     text-align: center;
     font-family: "Martel", serif;
     margin: 10px 0;
 }
 
 div.statement p {
-    color: #cdcdcd; /* ghostly-gray */
+    color: #f4fff3; /* ghostly-gray */
     text-align: justify;
     font-family: "Titillium Web", sans-serif;
 }
