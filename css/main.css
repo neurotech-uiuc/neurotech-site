@@ -1,17 +1,10 @@
 /*
 COLOR GLOSSARY:
 
-#424b54
-#9db4c0
-#dcdcdd
-#fafafa
-#ffffff
-
-melancholy-midnight: #011638
-chilling-charcoal: #364156
-classy-clay: #77979b
-synergistic-cyan: #dff8eb
-ghostly-gray: #cdcdcd
+synergistic-cyan: #7daaaf
+aesthetic-aegean: #4e6386
+cucumber water: #f4fff3 
+magnetic-mint: #dff8eb
 
 ----- OLD COLORS ------
 brainy-blue: #2695E1
@@ -47,7 +40,7 @@ Martel: https://fonts.google.com/specimen/Martel
         top: 0;
 
         border-width: 120vh 20vw 0 0;
-        border-color: #9db4c0 transparent transparent transparent; /* chilling-charcoal */
+        border-color: #7daaaf transparent transparent transparent; /* chilling-charcoal */
     }
 
     #right-bottom {
@@ -55,7 +48,7 @@ Martel: https://fonts.google.com/specimen/Martel
         bottom: 0;
 
         border-width: 0 0 120vh 20vw;
-        border-color: transparent transparent #dcdcdd transparent; /* ghostly-gray */
+        border-color: transparent transparent #f4fff3 transparent; /* ghostly-gray */
     }
 
     #right-top {
@@ -63,18 +56,18 @@ Martel: https://fonts.google.com/specimen/Martel
         bottom: 0;
 
         border-width: 0 0 110vh 18vw;
-        border-color: transparent transparent #9db4c0 transparent; /* chilling-charcoal */
+        border-color: transparent transparent #7daaaf transparent; /* chilling-charcoal */
     }
 }
 
 p {
-    color: #dcdcdd; /* ghostly-gray */
+    color: #f4fff3; /* ghostly-gray */
 }
 
 html, body {
     width: 100%;
     margin: 0;
-    background: #424b54; /* melancholy-midnight */
+    background: #4e6386; /* melancholy-midnight */
 }
 
 img {
@@ -86,7 +79,7 @@ img {
 div.links {
     display: flex;
     justify-content: center;
-    margin: 0 auto 30px auto;
+    margin: 20px auto 30px auto;
 }
 
 div.links p:not(.selected) {
@@ -116,22 +109,22 @@ div.links * {
 div.links p {
     margin: 0;
     font-weight: bolder;
-    color: #dcdcdd; /* ghostly-gray */
+    color: #f4fff3; /* ghostly-gray */
 }
 
 div.links p.selected {
-    color: #ffffff; /* synergistic-cyan */
+    color: #dff8eb; /* synergistic-cyan */
 }
 
 div.links a {
-    color: #dcdcdd; /* ghostly-gray */
+    color: #f4fff3; /* ghostly-gray */
     text-decoration: none;
-    border-bottom: 1px solid #011424b54638; /* melancholy-midnight */;
+    border-bottom: 1px solid #4e6386; /* melancholy-midnight */;
 }
 
 div.links a:hover {
-    border-bottom-color: #ffffff; /* synergistic-cyan */
-    color: #ffffff; /* synergistic-cyan */
+    border-bottom-color: #dff8eb; /* synergistic-cyan */
+    color: #dff8eb; /* synergistic-cyan */
 
     transition: border .1s linear, color .1s linear;
 }
