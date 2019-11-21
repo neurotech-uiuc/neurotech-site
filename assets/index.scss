@@ -1,0 +1,59 @@
+---
+---
+@import 'resources';
+
+div.statement {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    div {
+        background: $synergistic-cyan;
+        padding: 15px;
+        margin: 0 15px;
+        flex-grow: 1;
+    }
+
+    h1 {
+        color: $cucumber-water;
+        text-align: center;
+        font-family: "Martel", serif;
+        margin: 10px 0;
+    }
+    
+    p {
+        color: $cucumber-water;
+        text-align: justify;
+        font-family: "Titillium Web", sans-serif;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    @media (min-width: 450px) {
+        width: 60vw;
+        flex-direction: row;
+
+        div {
+            width: 30%;
+            border: 2px solid $aesthetic-aegean;
+        }
+    }
+}
+
+@media (min-width: 450px) {
+    .who-we-are {
+        position: relative;
+        left: 0;
+        margin: 0 auto;
+    }
+    
+    .our-mission {
+        position: relative;
+        right: 0;
+        margin: 0 auto;
+    }
+}
