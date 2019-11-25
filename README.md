@@ -141,7 +141,23 @@ bundle install
 
 **Mac:**
 
+Mac is not the OS I run, so using Homebrew is only my recommendation but also the only method I'm going to document here. If you have something else, you probably already know what you're doing and can find out how to get Jekyll working locally.
 
+So to install Homebrew if you don't have it:
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+To get ruby installed and added to your shell:
+```
+brew install ruby
+export PATH=/usr/local/opt/ruby/bin:$PATH
+```
+To [install jekyll](https://jekyllrb.com/docs/installation/macos/#install-jekyll):
+```
+gem install --user-install bundler jekyll
+export PATH=$HOME/.gem/ruby/X.X.0/bin:$PATH
+```
+To make sure the install worked, type `jekyll help` and you should get a list of the different jekyll commands you can run.
 
 **Linux:**
 
