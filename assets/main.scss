@@ -1,0 +1,108 @@
+---
+---
+@import 'resources';
+
+* {
+    text-align: center;
+    font-family: $titillium-web;
+}
+
+p {
+    color: $cucumber-water;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    background: $aesthetic-aegean;
+}
+
+img {
+    margin-bottom: 0;
+    width: 350px;
+    height: auto;
+}
+
+div.links {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px auto;
+
+    p {
+      margin: 0;
+      font-weight: bolder;
+    }
+
+    p:not(.selected) {
+        display: none;
+    }
+
+    * {
+        padding: 0 15px;
+    }
+
+    p.selected {
+        color: $magnetic-mint;
+    }
+
+    a {
+        color: $cucumber-water;
+        text-decoration: none;
+        border-bottom: 1px solid $aesthetic-aegean;
+
+        &:hover {
+            border-bottom-color: $magnetic-mint;
+            color: $magnetic-mint;
+
+            transition: border .1s linear, color .1s linear;
+        }
+    }
+
+    @media (min-width: 450px) {
+        width: 570px;
+        justify-content: space-evenly;
+        flex-direction: row;
+    
+        p:not(.selected) {
+            display: unset;
+        }
+    
+        * {
+            padding: 0 5px;
+        }
+    }
+}
+
+@media (min-width: 450px) {
+    .triangle {
+        position: fixed;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    #left {
+        left: 0;
+        top: 0;
+
+        border-width: 120vh 20vw 0 0;
+        border-color: $synergistic-cyan transparent transparent transparent;
+    }
+
+    #right-bottom {
+        right: 0;
+        bottom: 0;
+
+        border-width: 0 0 120vh 20vw;
+        border-color: transparent transparent $cucumber-water transparent; /* ghostly-gray */
+    }
+
+    #right-top {
+        right: 0;
+        bottom: 0;
+
+        border-width: 0 0 110vh 18vw;
+        border-color: transparent transparent $synergistic-cyan transparent; /* chilling-charcoal */
+    }
+}
+

@@ -1,0 +1,31 @@
+<div class="links">
+  {% if page.title == "index" -%}
+  <p class="selected">HOME</p>
+  {%- else -%}
+  <a href="/index.html">HOME</a>
+  {%- endif -%}
+
+  <p>|</p>
+
+  {% if page.title == "divisions/home" -%}
+  <p class="selected">DIVISIONS</p>
+  {%- else -%}
+  <a href="/divisions/home.html">DIVISIONS</a>
+  {%- endif -%}
+
+  <p>|</p>
+
+  {% if page.title == "blog" -%}
+  <p class="selected">BLOG</p>
+  {%- else -%}
+  <a href="/blog.html">BLOG</a>
+  {%- endif -%}
+
+  <p>|</p>
+
+  {% if page.title == "apply-now" -%}
+  <p class="selected">APPLY NOW</p>
+  {%- else -%}
+  <a href="/applynow.html">APPLY NOW</a>
+  {%- endif -%}
+</div>
