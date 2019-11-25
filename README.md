@@ -96,3 +96,53 @@ The only command in the `.cpanel.yml` file is to run a script that is stored loc
 This script should not need to be edited aside from commenting and uncommenting except in the cases where directory structure or our website infrastruture (requiring additional or different compilation commands) has changed.
 
 ## Environment Setup (Jekyll)
+
+### cPanel
+
+These steps shouldn't need to be taken again, but are here just for the purpose of history/documentation.
+- created Ruby 2.2 app 
+- downloaded Ruby 2.5 since Jekyll is not supported on 2.2
+- `gem install jekyll bundler` which failed
+- `gem install jekyll`
+- `gem install bundler`
+- `gem install jekyll bundler`
+- `gem install bigdecimal` since jekyll didn't want to succeed on running anything without it
+
+To use any ruby commands (i.e. `gem`, `jekyll`, `bundle`) you need to enter the ruby environment via the command: `source /home/neurotech/rubyvenv/.ruby-jekyll/2.5/bin/activate`
+
+### Local
+
+**Windows:**
+- WSL: you will need some bash CLI, if you have Windows 10, I would recommend WSL. [Here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) is the Microsoft documentation on how to do that.
+- Jekyll: if you just downloaded WSL, you will eventually learn how frustrating it is. If you've already had it, then you probably understand the struggle. Here are the steps you need to take to get it working (these steps derived from [here](https://www.mczerniawski.pl/blog/run-jekyll-localy-in-wsl/), credit where credit is due):
+```
+sudo apt-get update && sudo apt-get upgrade
+```
+The above line might take a while, especially if you just downloaded WSL.
+```
+sudo apt-get install ruby
+sudo gem install bundler
+```
+You will need to create a `Gemfile` now which can be done by typing the command `cat > Gemfile`, typing the desired contents, then pressing Ctl-D. This is what should be in `Gemfile`:
+```
+source "https://rubygems.org"
+gem "jekyll-include-cache"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem "jekyll-feed"
+```
+Now, continuing on with the commands:
+```
+sudo apt-get install ruby-all-dev zlib1g-dev libxslt1-dev libxml2-dev
+sudo gem install commonmarker
+bundle install
+```
+
+**Mac:**
+
+
+
+**Linux:**
+
+Literally google any tutorial, you got this.
