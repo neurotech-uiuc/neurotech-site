@@ -2,23 +2,19 @@
 
 _Documentation and how-to for everything related to the NeurotechX student chapter at UIUC website._
 
+[Link to the site!](http://neurotech.web.illinois.edu)
+
 ## Implementation Choice
 
-We obviously have the intention to make the site as low cost as possible. Using UIUC resources, the cost can be completely free for a basic site, which should be plenty for the purposes of NeurotechX UIUC branding for a good amount of time.
+We obviously have the intention to make the site as low cost as possible. Using UIUC resources, the cost can be completely free for a basic site, which should be plenty for the purposes of Neurotech at UIUC branding for a good amount of time.
 
 ### Current Implementation
 
 We have chosen to use [cPanel](https://answers.illinois.edu/illinois/82587) to host our website. It comes with a `.web.illinois.edu` address, and we can eventually contact IT services to request a different domain name. cPanel comes with quite a few capabilities, and most can be viewed in the home portal.
 
-As of Fall 2019, we are in the very early stages of development on the website, so we will currently only be using plain html and css. This should be sufficient for most of the website, but moving on to and implementing other languages will help with future organization of the website and provide the possibility for additional capabilities.
-
-HTML and CSS should work out of the box for pretty much anyone's local development environment, so additional steps for installation of required dependencies/languages/libraries will be included here once they are implemented.
+As of Fall 2019, we are currently building the site using Jekyll, which uses a combination of HTML, sass, markdown/kramdown and Liquid. Information on all of these languages is provided in the Neurotech Google Drive under "Outeach/Reference! NT's Website Crash Course".
 
 ### Future Implementation
-
-The first future implementation to be implemented is Sass. This should happen before or soon after the first rollout of the website, and its realized implementation is dependent upon cPanel allowing the installation of Dart Sass and being able to compile on deploy.
-
-Since it looks like cPanel supports Ruby, the fastest way to support the blog feature of the website may be to use something like Jekyll. This needs to be looked into more, but is a possible future implementation. Other options for the blog feature of the app include Wordpress, which can also be integrated into cPanel.
 
 More in the future, it would be nice to implement Ruby (and possibly Ruby on Rails) since it is available with cPanel. Node.js is also configurable with cPanel, but Ruby is often less code (for a site that doesn't have very complex aspects such as this one), and RoR will play nicely if we decide to implement a database, which also comes with cPanel; a database might be useful for purposes of the blog (like logging in or editing posts), managing applications for the organization, event details, etc. Of course, deciding whether to use Node or Ruby in the future can still be looked into.
 
@@ -47,7 +43,7 @@ Note that owners to the organization have admin access to all repositories in th
 
 #### Repository
 
-For as long as the organization has the default repository permission set to write, every member of the organization will have write access to the website's repo. Only owners of the organization have admin access to this repository, and only admins may currently override PR review requirements (into master). This will most likely be changed (to including admins needing review) when the site is more finalized or has been released.
+For as long as the organization has the default repository permission set to write, every member of the organization will have write access to the website's repo. Only owners of the organization have admin access to this repository, and only admins may currently override PR review requirements (into master). This will most likely be changed (to including admins needing review) when the site is more finalized.
 
 To change the organization's default repositroy permissions so that not all members have write access to every other repository:
 
@@ -95,6 +91,8 @@ Deploy steps:
 
 ### Deploy Commands
 
-Refrain from copying everything (`*`) from the repo onto the server in order to save space. Copy over only what is needed.
+The only command in the `.cpanel.yml` file is to run a script that is stored locally on the sever. In order to flip different options within the script, you must edit it on the server to either comment the lines you don't want run, or uncomment the lines you do want run. There should be comments above each block of commands describing what they do and when they should and shouldn't be run. Although it is technically possible to run a script with arguments that could selectively run these blocks for us (instead of having to comment/uncomment), this would require editing the `.cpanel.yml` file on GitHub to include those arguments before every deploy OR not deploying through the GUI on cPanel at all but doing it through terminal. The downside to the second option is that there will not be a log or record for deploy times and versions.
 
-Looking at the current `.cpanel.yml` file, you can probably make out how exactly it works; the commands listed are the ones that one when you click the button to deploy. Currently, all these commands do is copy over files from where the repository is in the cPanel to the root directory for the web server. Eventually, these commands might include additional steps, such as compiling Sass down to CSS.
+This script should not need to be edited aside from commenting and uncommenting except in the cases where directory structure or our website infrastruture (requiring additional or different compilation commands) has changed.
+
+## Environment Setup (Jekyll)
