@@ -70,7 +70,7 @@ To give someone permission to cPanel:
 
 ### Deploying Current Version of `master`
 
-You will first want to make sure that the deploy commands are updated to reflect all necessary changes made to the structure of the repository. The deploy commands will most likely not need to be changed often, especially once the site is mostly finalized.
+The deploy commands will most likely not need to be changed often, especially once the site is mostly finalized.
 
 **Important:** The directory structure on the server must match the file structure on master. For example, if the repository has a `css` directory and the server does not, even a deploy file that looks like this:
 
@@ -78,7 +78,7 @@ You will first want to make sure that the deploy commands are updated to reflect
     - /bin/cp css/* $DEPLOYPATH/css/
 ```
 
-will not create the directory. Instead, the deploy will fail. You can easily edit the file structure through cPanel's terminal (under "ADVANCED") with basic bash commands.
+will not create the directory. Instead, the deploy will (most likely) fail. Changing what commands are run on deploy are covered in the next section.
 
 Deploy steps:
 
@@ -89,11 +89,13 @@ Deploy steps:
 5. Click `Update from Remote`. Make sure that the commit messages (and commit sha if messages are not unique) to confirm you have the correct version of the master branch.
 6. Click `Deploy HEAD Commit`. If the deploy succeeds, then the master sha's and commit messages under "Last Deployment Information" will match what's under "HEAD Commit". Otherwise, the deploy has failed, and the previous version of the website is still (most likely) active.
 
-### Deploy Commands
+### Deploy Command Maintenance
 
 The only command in the `.cpanel.yml` file is to run a script that is stored locally on the sever. In order to flip different options within the script, you must edit it on the server to either comment the lines you don't want run, or uncomment the lines you do want run. There should be comments above each block of commands describing what they do and when they should and shouldn't be run. Although it is technically possible to run a script with arguments that could selectively run these blocks for us (instead of having to comment/uncomment), this would require editing the `.cpanel.yml` file on GitHub to include those arguments before every deploy OR not deploying through the GUI on cPanel at all but doing it through terminal. The downside to the second option is that there will not be a log or record for deploy times and versions.
 
 This script should not need to be edited aside from commenting and uncommenting except in the cases where directory structure or our website infrastruture (requiring additional or different compilation commands) has changed.
+
+If the directory structure has changed, make changes to the `make-dirs.sh` script to reflect the full, correct directory structure.
 
 ## Environment Setup (Jekyll)
 
