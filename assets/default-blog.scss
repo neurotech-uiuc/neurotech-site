@@ -1,0 +1,14 @@
+---
+---
+@import 'resources';
+@import 'main'; // for the triangle and logo styles
+
+p {
+  font-family: $titillium-web;
+  color: $cucumber-water;
+}
+
+h1, h2, h3, h4 {
+  font-family: $martel;
+  color: $magnetic-mint;
+}
