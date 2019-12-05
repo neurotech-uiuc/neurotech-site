@@ -1,0 +1,22 @@
+<!-- 
+  args: division, which_class
+-->
+
+{%- assign division = site.data.divisions[include.division] -%}
+
+<a href={{ division.link }}>
+<div class="panel wide {{ include.which_class }}">
+  <div class="pair">
+    <img src={{ division.image_src }} />
+    <h1>{{ include.division | downcase }}</h1>
+  </div>
+  <p>{{ division.description }}</p>
+</div>
+<div class="panel small">
+  <img src={{ division.image_src }} />
+  <div class="pair">
+    <h1>{{ include.division | downcase }}</h1>
+    <p>{{ division.description }}</p>
+  </div>
+</div>
+</a>
