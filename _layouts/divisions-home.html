@@ -6,6 +6,18 @@ layout: default
 
 <div class="columns">
   <div class="row" id="top">
+    {%- include division-panel.html division="software" which_class="left" -%}
+    {%- include division-panel.html division="hardware" which_class="right" -%}
+  </div>
+  <div class="row" id="bottom">
+    {%- include division-panel.html division="research" which_class="left" -%}
+    {%- include division-panel.html division="outreach" which_class="right" -%}
+  </div>
+</div>
+
+<!--
+<div class="columns">
+  <div class="row" id="top">
     <a href="software.html"><img src="/assets/images/software-panel.png" class="left" /></a>
     <a href="hardware.html"><img src="/assets/images/hardware-panel.png" class="right" /></a>
   </div>
@@ -14,3 +26,4 @@ layout: default
     <a href="outreach.html"><img src="/assets/images/outreach-panel.png" class="right" /></a>
   </div>
 </div>
+-->
