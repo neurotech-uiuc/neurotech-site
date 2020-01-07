@@ -1,0 +1,44 @@
+<!--
+  args: member_name
+-->
+
+{%- assign member = site.data.members[include.member_name] -%}
+{%- assign year_diff = member.grad | minus: site.year_end -%}
+
+<div class="member-profile">
+  <a href="{{ member.linkedin }}" rel="noopener noreferrer" target="_blank">
+    <img src="{{ member.image | prepend: "/assets/images/members/" }}" />
+  </a>
+
+  <h1>{{ include.member_name }}</h1>
+  <p>Major(s):{{" "}}
+    {{ member.majors | join: ", " }}
+  </p>
+  {%- if member.minors.size != 0 -%}
+    <p>Minor(s):{{" "}}
+      {{ member.minors | join: ", "}}
+    </p>
+  {%- endif -%}
+  <p>Year:{{" "}}
+    {%- unless member.grad -%}
+      Graduate
+    {%- else -%}
+      {%- case year_diff -%}
+        {%- when 0 -%}
+          Senior
+        {%- when 1 -%}
+          Junior
+        {%- when 2 -%}
+          Sophomore
+        {%- when 3 -%}
+          Freshman
+        {%- else -%}
+          Senior
+      {%- endcase -%}
+    {%- endunless -%}
+  </p>
+
+  <a href="{{ member.linkedin }}">
+    <span class="clickable"></span>
+  </a>
+</div>
