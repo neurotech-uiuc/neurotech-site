@@ -1,0 +1,120 @@
+{
+  "Joan Ball": 
+  {
+    "division": "outreach",
+    "titles": ["Head"],
+    "grad": 2021,
+    "majors": ["Computer Science", "Psychology"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/joan-ball-7a6835159/",
+    "image": "default.png"
+  },
+  "Ashank Behara":
+  {
+    "division": "hardware",
+    "titles": ["Vice President"],
+    "grad": 2022,
+    "majors": ["Mechanical Engineering"],
+    "minors": ["Computer Science"],
+    "linkedin": "https://www.linkedin.com/in/ashankbehara/",
+    "image": "ashank-b.png"
+  },
+  "Ayush Agarwal":
+  {
+    "division": "research",
+    "titles": ["Member"],
+    "grad": 2023,
+    "majors": ["Computer Science"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/ayush-b-agarwal/",
+    "image": "ayush-a.png"
+  },
+  "Niviru Wijayaratne":
+  {
+    "division": "hardware",
+    "titles": ["Head"],
+    "grad": 2022,
+    "majors": ["Mechanical Engineering"],
+    "minors": ["Computer Science"],
+    "linkedin": "https://www.linkedin.com/in/niviruw/",
+    "image": "niviru-w.png"
+  },
+  "Yan Luo":
+  {
+    "division": "research",
+    "titles": ["Member"],
+    "grad": 2023,
+    "majors": ["Bioengineering"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/yan-luo2/",
+    "image": "yan-l.png"
+  },
+  "Megan Finnegan":
+  {
+    "division": "software",
+    "titles": ["Graduate Mentor", "Dual PhD Student in Neuroscience and Clinical Psychology"],
+    "majors": ["Computational Neuroscience"],
+    "minors": ["Machine Learning", "Neuroimaging"],
+    "linkedin": "https://www.linkedin.com/in/heuristicwondering/",
+    "image": "megan-f.png"
+  },
+  "Gene Wang":
+  {
+    "division": "software",
+    "titles": ["Member"],
+    "grad": 2023,
+    "majors": ["Computer Science"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/genewang0/",
+    "image": "gene-w.png"
+  },
+  "Ramya Nagapudi":
+  {
+    "division": "software",
+    "titles": ["Head"],
+    "grad": 2022,
+    "majors": ["Computer Science"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/ramya-nagapudi-03784a15b/",
+    "image": "ramya-n.png"
+  },
+  "Veeresh Neralagi":
+  {
+    "titles": ["President"],
+    "grad": 2022,
+    "majors": ["Math", "Statistics"],
+    "minors": ["Computer Science"],
+    "linkedin": "https://www.linkedin.com/in/veeresh-neralagi/",
+    "image": "veeresh-n.png"
+  },
+  "Anisha Bao":
+  {
+    "division": "hardware",
+    "titles": ["Head"],
+    "grad": 2022,
+    "majors": ["Mechanical Engineering"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/anisharao14",
+    "image": "anisha-b.png"
+  },
+  "Siddharth Bhujle":
+  {
+    "division": "hardware",
+    "titles": ["Member"],
+    "grad": 2022,
+    "majors": ["Materials Science and Engineering"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/siddharthbhujle/",
+    "image": "siddharth-b.png"
+  },
+  "Kavya Sood":
+  {
+    "division": "research",
+    "titles": ["Head"],
+    "grad": 2022,
+    "majors": ["Statistics"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/kavya-sood-b43a8517a",
+    "image": "kavya-s.png"
+  }
+}
