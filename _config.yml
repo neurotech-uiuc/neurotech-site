@@ -39,6 +39,10 @@ sass:
 
 include: [divisions]
 
+# Needs to be changed each school year (fall semester) to correctly calculate 
+# what year a member is
+year_end: 2020
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

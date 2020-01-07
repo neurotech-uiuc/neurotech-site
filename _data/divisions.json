@@ -1,0 +1,38 @@
+{
+  "outreach": 
+  {
+    "image_src": "/assets/images/outreach-logo.png",
+    "link": "outreach.html",
+    "description": "Description here",
+    "members": 
+    [
+      "Joan Ball",
+      "Jack Watson",
+      "Simer Singh"
+    ]
+  },
+
+  "research": 
+  {
+    "image_src": "/assets/images/research-logo.png",
+    "link": "research.html",
+    "description": "Description here",
+    "members": []
+  },
+
+  "software": 
+  {
+    "image_src": "/assets/images/software-logo.png",
+    "link": "software.html",
+    "description": "Description here",
+    "members": []
+  },
+
+  "hardware": 
+  {
+    "image_src": "/assets/images/hardware-logo.png",
+    "link": "hardware.html",
+    "description": "Description here",
+    "members": []
+  }
+}
