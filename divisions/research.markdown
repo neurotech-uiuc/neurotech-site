@@ -1,4 +1,4 @@
 ---
-layout: under-construction
+layout: default-division
 title: research
 ---

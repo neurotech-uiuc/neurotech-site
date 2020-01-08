@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" type="text/css" href="/assets/divisions-default.css">
+
+{%- assign division = site.data.divisions[page.title] -%}
+
+<div class="division-title">
+  <img src="{{ division.image_src }}" />
+  <h1>{{ page.title | capitalize }}</h1>
+</div>
+
+<div class="info">
+  <p>Meeting Times: {{ division.meeting_info }}</p>
+  <p>Contact: {{ division.contact }}</p>
+</div>
+
+<p>{{ division.description }}</p>
+
+<h2>{{ page.content-caption }}</h2>
+<div class="division-content">
+  {{ content }}
+</div>
+
+<h2>Members</h2>
+
+{%- include select-members.html members=division.members -%}
