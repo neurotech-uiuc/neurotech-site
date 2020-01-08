@@ -1,5 +1,5 @@
 ---
 layout: default-division
 title: outreach
-content-caption: Announcements
+content-caption: Announcements/Events
 ---
