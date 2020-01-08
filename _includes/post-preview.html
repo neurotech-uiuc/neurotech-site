@@ -1,0 +1,20 @@
+<!--
+  args: title, 
+        date,
+        authors (as a string), 
+        permalink, 
+        preview (stripped, but not trunc'd)
+-->
+
+<div class="post-preview">
+  <div class="first-line">
+    <p id="title">{{ include.title }}</p>
+    <p>{{ include.date | date_to_string }}</p>
+  </div>
+  <p>Authors: {{ include.authors }}</p>
+  <p>{{ include.preview | truncate: 103, "..." }}</p>
+
+  <a href="{{ include.permalink }}">
+    <span class="clickable"></span>
+  </a>
+</div>

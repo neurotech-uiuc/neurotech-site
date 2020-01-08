@@ -1,0 +1,66 @@
+---
+---
+@import 'resources';
+
+.wrapper {
+  width: 60vw;
+  margin: 10px auto;
+
+  * {
+    text-align: justify;
+    color: $cucumber-water;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: $martel;
+    color: $magnetic-mint;
+  }
+
+  h1, .authors {
+    text-align: center;
+  }
+  
+  img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: unset;
+    max-width: 100%;
+  }
+}
+
+.post-title {
+  border-top: 1px solid $cucumber-water;
+  border-bottom: 1px solid $cucumber-water;
+  
+  p {
+    text-align: center;
+    margin: 0 0 5px 0;
+  }
+
+  h1 {
+    margin: 5px 0 0 0;
+  }
+}
+
+p {
+  font-family: $titillium-web;
+}
+
+.divider {
+  display: flex;
+  padding: 0 20px;
+  justify-content: center;
+
+  img {
+    width: 25px;
+    height: auto;
+
+    margin: 0 10px;
+  }
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
