@@ -1,2 +1,9 @@
+<!--
+  args: members (array of strings, first member should be lead)
+-->
+
 <div class="select-members">
+  {%- for person in include.members -%}
+    {%- include profile.html member_name=person -%}
+  {%- endfor -%}
 </div>
