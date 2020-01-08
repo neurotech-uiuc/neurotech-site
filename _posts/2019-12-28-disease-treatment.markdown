@@ -25,7 +25,7 @@ In the following sections, we will discuss some ways in which BCIs can be used t
 
 ## Substance Abuse
 
-![](https://images.unsplash.com/photo-1573678642928-7977bc2addb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
+![Photo by Adam Niescioruk](https://images.unsplash.com/photo-1573678642928-7977bc2addb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
 
 Our brain is not always under our conscious control; consider how difficult it can be to control a dream while sleeping, stay focused while studying, or even fall asleep in the first place.
 
@@ -43,7 +43,7 @@ More exciting research was conducted in 2003 at UCLA by a team lead by William C
 
 ## Alzheimer's
 
-![](https://www.fcneurology.net/wp-content/uploads/2019/06/alzheimers-brain.jpg)
+![Source: https://www.fcneurology.net/june-is-alzheimers-and-brain-awareness-month/](https://www.fcneurology.net/wp-content/uploads/2019/06/alzheimers-brain.jpg)
 
 Alzheimer’s disease (AD) is a progressive neurodegenerative disorder that significantly decreases the quality of life for affected patients. Symptoms of AD become more severe as the disease progresses, most commonly resulting in dementia (10). Currently, there is no cure for AD, but studies have found methods to decrease the severity of its symptoms either by early diagnosis or improvement of AD patients’ cognitive performance through the use of EEG. Because EEG technology is most commonly utilized for early diagnosis in the context of AD, that is what we will discuss for the majority of this section.
 
@@ -63,7 +63,7 @@ Considering the studies previously discussed in this section, it seems reasonabl
 
 ## Paralysis
 
-![](https://images.unsplash.com/photo-1560281246-0c90f577e434?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
+![Photo by marianna bos](https://images.unsplash.com/photo-1560281246-0c90f577e434?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
 
 According to a paper published in 2016, about 5.4 million people in the United States suffer from some form of paralysis, whether it results from a stroke, spinal-cord injury, multiple sclerosis, or some other cause (30). Leveraging recent advances in BCI technology, researchers are currently working to develop techniques that could possibly aid paraplegic patients regain some degree of independence.
 
@@ -77,7 +77,7 @@ Overall, there are many BCIs, both invasive and non-invasive, that are being use
 
 ## Conclusion
 
-![](https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
+![Photo by Robina Weermeijer](https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
 
 With the rapid advancement of BCI technology and corresponding research on BCI-based treatments, the scope of BCI technologies for disease treatment continues to grow. The National Center for Biotechnology Information (NCBI) states, “At present, there are over 400 groups worldwide engaging in a wide spectrum of research and development programs, using a variety of brain signals, signal features, and analysis and translational algorithms [2]” (33).
 
