@@ -1,7 +1,8 @@
 ---
 layout: default-blog
-author: Joan Ball
+authors: Joan Ball
 title: Sample Post
+permalink: /posts/sample-post.html
 ---
 
 # The Bingo Bango Title
