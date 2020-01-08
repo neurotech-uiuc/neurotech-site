@@ -4,6 +4,8 @@
     "image_src": "/assets/images/outreach-logo.png",
     "link": "outreach.html",
     "description": "Description here",
+    "contact": "joan2@illinois.edu",
+    "meeting_info": "1-2:30 T, 4:30-6 R, Siebel 1316",
     "members": 
     [
       "Joan Ball",
@@ -17,7 +19,13 @@
     "image_src": "/assets/images/research-logo.png",
     "link": "research.html",
     "description": "Description here",
-    "members": []
+    "members": 
+    [
+      "Kavya Sood",
+      "Tiffany Jong",
+      "Yan Luo",
+      "Ayush Agarwal"
+    ]
   },
 
   "software": 
@@ -25,7 +33,14 @@
     "image_src": "/assets/images/software-logo.png",
     "link": "software.html",
     "description": "Description here",
-    "members": []
+    "members": 
+    [
+      "Ramya Nagapudi",
+      "Nitish Natarajan",
+      "Gene Wang",
+      "Kshitij Gupta",
+      "Megan Finnegan"
+    ]
   },
 
   "hardware": 
@@ -33,6 +48,13 @@
     "image_src": "/assets/images/hardware-logo.png",
     "link": "hardware.html",
     "description": "Description here",
-    "members": []
+    "members": 
+    [
+      "Niviru Wijayaratne",
+      "Anant Naik",
+      "Anisha Rao",
+      "Richard Przybek",
+      "Siddharth Bhujle"
+    ]
   }
 }

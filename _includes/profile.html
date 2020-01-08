@@ -5,6 +5,7 @@
 {%- assign member = site.data.members[include.member_name] -%}
 {%- assign year_diff = member.grad | minus: site.year_end -%}
 
+{%- if member -%}
 <div class="member-profile">
   <a href="{{ member.linkedin }}" rel="noopener noreferrer" target="_blank">
     <img src="{{ member.image | prepend: "/assets/images/members/" }}" />
@@ -42,3 +43,4 @@
     <span class="clickable"></span>
   </a>
 </div>
+{%- endif -%}
