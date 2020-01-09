@@ -2,10 +2,18 @@
 ---
 @import 'resources';
 
+body {
+  width: 100%;
+}
+
 .page-content {
-  width: 60vw;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin: 0 10px;
+
+  @media (min-width: 450px) {
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }   
 }
 
 .division-title {
@@ -33,9 +41,11 @@ h2 {
   text-align: left;
 }
 
-.info {
-  display: flex;
-  justify-content: space-between;
+@media (min-width: 450px) {
+  .info {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 p {
@@ -59,8 +69,12 @@ p {
 }
 
 .member-profile {
-  width: 25%;
+  width: 33%;
   margin: 5px 0;
+
+  @media (min-width: 450px) {
+    width: 25%;
+  }
 
   img {
     width: 120px;
