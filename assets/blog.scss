@@ -3,14 +3,19 @@
 @import 'resources';
 
 .wrapper {
-  width: 50vw;
+  width: 100%;
   margin: 0 auto;
+
+  @media (min-width: 450px) {
+    width: 50vw;
+  }
 }
 
 .post-preview {
   position: relative;
   border-top: 1px solid $cucumber-water;
   border-bottom: 1px solid $cucumber-water;
+  margin: 0 5px;
   margin-bottom: 10px;
 
   p {

@@ -2,9 +2,12 @@
 ---
 @import 'resources';
 
+body {
+  width: 100%;
+}
+
 .wrapper {
-  width: 60vw;
-  margin: 10px auto;
+  margin: 10px 10px;
 
   * {
     text-align: justify;
@@ -27,6 +30,15 @@
     width: unset;
     max-width: 100%;
   }
+
+  @media (min-width: 450px) {
+    width: 60vw;
+    margin: 10px auto;
+  }
+}
+
+ol li {
+  word-break: break-all;
 }
 
 .post-title {
