@@ -1,0 +1,96 @@
+---
+---
+@import 'resources';
+
+body {
+  width: 100%;
+}
+
+.page-content {
+  margin: 0 10px;
+
+  @media (min-width: 450px) {
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }   
+}
+
+.division-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 15px 0 5px 0;
+
+  img {
+    height: 100%;
+    width: auto;
+    margin: 0 10px 0 0;
+  }
+  
+  h1 {
+    color: $cucumber-water;
+    font-size: 40px;
+    margin: 0;
+  }
+}
+
+h2 {
+  color: $cucumber-water;
+  text-align: left;
+}
+
+@media (min-width: 450px) {
+  .info {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+p {
+  text-align: justify;
+  color: $magnetic-mint;
+  margin: 5px 0;
+}
+
+.division-content  {
+  padding: 5px;
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.select-members {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: start;
+}
+
+.member-profile {
+  width: 33%;
+  margin: 5px 0;
+
+  @media (min-width: 450px) {
+    width: 25%;
+  }
+
+  img {
+    width: 120px;
+    height: 120px;
+  }
+
+  p {
+    text-align: center;
+    margin: 0 5px;
+    font-size: 12px;
+    color: $magnetic-mint;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    color: $cucumber-water;
+  }
+}

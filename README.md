@@ -36,8 +36,8 @@ To add a new member to the organization (assuming you are an organization admin)
 To make someone an owner **_to the organization_** (most likely for a new lead):
 
 1. Again visit the `People` tab
-2. Click on the settings button all the way to the right of the desired member, then click `Manage`.
-3. ??? Profit
+2. Click on the settings button all the way to the right of the desired member, then click `Change Role...` (this can only be done once they have accepted the invitation)
+3. Choose `Owner`
 
 Note that owners to the organization have admin access to all repositories in the organization as well. Defined hierarchy/security within the organization is not urgent (or arguably necessary), but can promote good git workflow regarding PRs, etc.
 
