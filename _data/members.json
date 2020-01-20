@@ -12,7 +12,8 @@
     "Anisha Bao",
     "Siddharth Bhujle",
     "Kavya Sood",
-    "Nitish Natarajan"
+    "Nitish Natarajan",
+    "Jack Watson"
   ],
   "Joan Ball": 
   {
@@ -141,5 +142,14 @@
     "minors": ["Business"],
     "linkedin": "http://linkedin.com/in/nitish-natarajan",
     "image": "nitish-n.png"
+  },
+  "Jack Watson":
+  {
+    "division": "outreach",
+    "titles": ["Member"],
+    "grad": 2022,
+    "majors": ["Aerospace Engineering"],
+    "minors": ["Computer Science"],
+    "image": "jack-w.png"
   }
 }
