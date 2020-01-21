@@ -11,6 +11,16 @@ p {
     color: $cucumber-water;
 }
 
+a {
+    color: $cucumber-water;
+    text-decoration: none;
+    border-bottom: 1px dotted $cucumber-water;
+
+    &:hover {
+      border-bottom-style: solid;
+    }
+}
+
 html, body {
     width: 100%;
     margin: 0;
