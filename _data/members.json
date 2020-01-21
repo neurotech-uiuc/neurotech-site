@@ -11,7 +11,9 @@
     "Veeresh Neralagi",
     "Anisha Bao",
     "Siddharth Bhujle",
-    "Kavya Sood"
+    "Kavya Sood",
+    "Nitish Natarajan",
+    "Jack Watson"
   ],
   "Joan Ball": 
   {
@@ -130,5 +132,24 @@
     "minors": [],
     "linkedin": "https://www.linkedin.com/in/kavya-sood-b43a8517a",
     "image": "kavya-s.png"
+  },
+  "Nitish Natarajan":
+  {
+    "division": "software",
+    "titles": ["Member"],
+    "grad": 2022,
+    "majors": ["CS + Statistics"],
+    "minors": ["Business"],
+    "linkedin": "http://linkedin.com/in/nitish-natarajan",
+    "image": "nitish-n.png"
+  },
+  "Jack Watson":
+  {
+    "division": "outreach",
+    "titles": ["Member"],
+    "grad": 2022,
+    "majors": ["Aerospace Engineering"],
+    "minors": ["Computer Science"],
+    "image": "jack-w.png"
   }
 }
