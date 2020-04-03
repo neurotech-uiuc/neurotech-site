@@ -13,11 +13,17 @@
     "Siddharth Bhujle",
     "Kavya Sood",
     "Nitish Natarajan",
-    "Jack Watson"
+    "Jack Watson",
+    "Philip Lutkovsky",
+    "Claire Rowley",
+    "Sohail Khan",
+    "Jennifer Huan",
+    "Vanessa Gonzalez",
+    "Richard Pryzbek"
   ],
   "Joan Ball": 
   {
-    "titles": ["Head"],
+    "titles": ["Co-Lead"],
     "grad": 2021,
     "majors": ["Computer Science", "Psychology"],
     "minors": [],
@@ -44,7 +50,7 @@
   },
   "Niviru Wijayaratne":
   {
-    "titles": ["Head"],
+    "titles": ["Lead"],
     "grad": 2022,
     "majors": ["Mechanical Engineering"],
     "minors": ["Computer Science"],
@@ -79,7 +85,7 @@
   },
   "Ramya Nagapudi":
   {
-    "titles": ["Head"],
+    "titles": ["Lead"],
     "grad": 2022,
     "majors": ["Computer Science"],
     "minors": [],
@@ -97,7 +103,7 @@
   },
   "Anisha Rao":
   {
-    "titles": ["Head"],
+    "titles": ["Lead"],
     "grad": 2022,
     "majors": ["Mechanical Engineering"],
     "minors": [],
@@ -115,7 +121,7 @@
   },
   "Kavya Sood":
   {
-    "titles": ["Head"],
+    "titles": ["Lead"],
     "grad": 2022,
     "majors": ["Statistics"],
     "minors": [],
@@ -138,5 +144,59 @@
     "majors": ["Aerospace Engineering"],
     "minors": ["Computer Science"],
     "image": "jack-w.png"
+  },
+  "Philip Lutkovsky":
+  {
+    "titles": ["Member"],
+    "grad": 2021,
+    "majors": ["Economics", "Psychology"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/philiplutkovsky/",
+    "image": "philip-l.jpg"
+  },
+  "Claire Rowley":
+  {
+    "titles": ["Co-Lead"],
+    "grad": 2022,
+    "majors": ["Psychology"],
+    "minors": ["Business", "Integrative Biology"],
+    "linkedin": "https://www.linkedin.com/in/claire-rowley-a04113179/",
+    "image": "claire-r.jpg"
+  },
+  "Sohail Khan":
+  {
+    "titles": ["Co-Lead"],
+    "grad": 2022,
+    "majors": ["Computer Science", "Psychology"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/sohailmkhan30/",
+    "image": "sohail-k.jpeg"
+  },
+  "Jennifer Huan":
+  {
+    "titles": ["Member"],
+    "grad": 2023,
+    "majors": ["Anthropology"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/jennifer-huan-3077371a4",
+    "image": "jennifer-h.jpg"
+  },
+  "Vanessa Gonzalex": 
+  {
+    "titles": ["Member"],
+    "grad": 2021,
+    "majors": ["Mollecular & Cellular Biology, Psychology"],
+    "minors": [],
+    "linkedin": "www.linkedin.com/in/vanessa-gonzalez-uiuc",
+    "image": "vanessa-g.jpeg"
+  },
+  "Richard Pryzbek":
+  {
+    "titles": ["Member"],
+    "grad": 2022,
+    "majors": ["Computer Engineering"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/richard-przybek/",
+    "image": "richard-p.jpg"
   }
 }
