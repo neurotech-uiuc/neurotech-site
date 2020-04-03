@@ -17,7 +17,6 @@
   ],
   "Joan Ball": 
   {
-    "division": "outreach",
     "titles": ["Head"],
     "grad": 2021,
     "majors": ["Computer Science", "Psychology"],
@@ -27,7 +26,6 @@
   },
   "Ashank Behara":
   {
-    "division": "hardware",
     "titles": ["Vice President"],
     "grad": 2022,
     "majors": ["Mechanical Engineering"],
@@ -37,7 +35,6 @@
   },
   "Ayush Agarwal":
   {
-    "division": "research",
     "titles": ["Member"],
     "grad": 2023,
     "majors": ["Computer Science"],
@@ -47,7 +44,6 @@
   },
   "Niviru Wijayaratne":
   {
-    "division": "hardware",
     "titles": ["Head"],
     "grad": 2022,
     "majors": ["Mechanical Engineering"],
@@ -57,7 +53,6 @@
   },
   "Yan Luo":
   {
-    "division": "research",
     "titles": ["Member"],
     "grad": 2023,
     "majors": ["Bioengineering"],
@@ -67,7 +62,6 @@
   },
   "Megan Finnegan":
   {
-    "division": "software",
     "titles": ["Graduate Mentor", "Dual PhD Student in Neuroscience and Clinical Psychology"],
     "majors": ["Computational Neuroscience"],
     "minors": ["Machine Learning", "Neuroimaging"],
@@ -76,7 +70,6 @@
   },
   "Gene Wang":
   {
-    "division": "software",
     "titles": ["Member"],
     "grad": 2023,
     "majors": ["Computer Science"],
@@ -86,7 +79,6 @@
   },
   "Ramya Nagapudi":
   {
-    "division": "software",
     "titles": ["Head"],
     "grad": 2022,
     "majors": ["Computer Science"],
@@ -105,7 +97,6 @@
   },
   "Anisha Rao":
   {
-    "division": "hardware",
     "titles": ["Head"],
     "grad": 2022,
     "majors": ["Mechanical Engineering"],
@@ -115,7 +106,6 @@
   },
   "Siddharth Bhujle":
   {
-    "division": "hardware",
     "titles": ["Member"],
     "grad": 2022,
     "majors": ["Materials Science and Engineering"],
@@ -125,7 +115,6 @@
   },
   "Kavya Sood":
   {
-    "division": "research",
     "titles": ["Head"],
     "grad": 2022,
     "majors": ["Statistics"],
@@ -135,7 +124,6 @@
   },
   "Nitish Natarajan":
   {
-    "division": "software",
     "titles": ["Member"],
     "grad": 2022,
     "majors": ["CS + Statistics"],
@@ -145,7 +133,6 @@
   },
   "Jack Watson":
   {
-    "division": "outreach",
     "titles": ["Member"],
     "grad": 2022,
     "majors": ["Aerospace Engineering"],
