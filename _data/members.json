@@ -13,12 +13,17 @@
     "Siddharth Bhujle",
     "Kavya Sood",
     "Nitish Natarajan",
-    "Jack Watson"
+    "Jack Watson",
+    "Philip Lutkovsky",
+    "Claire Rowley",
+    "Sohail Khan",
+    "Jennifer Huan",
+    "Vanessa Gonzalez",
+    "Richard Pryzbek"
   ],
   "Joan Ball": 
   {
-    "division": "outreach",
-    "titles": ["Head"],
+    "titles": ["Co-Lead"],
     "grad": 2021,
     "majors": ["Computer Science", "Psychology"],
     "minors": [],
@@ -27,7 +32,6 @@
   },
   "Ashank Behara":
   {
-    "division": "hardware",
     "titles": ["Vice President"],
     "grad": 2022,
     "majors": ["Mechanical Engineering"],
@@ -37,7 +41,6 @@
   },
   "Ayush Agarwal":
   {
-    "division": "research",
     "titles": ["Member"],
     "grad": 2023,
     "majors": ["Computer Science"],
@@ -47,8 +50,7 @@
   },
   "Niviru Wijayaratne":
   {
-    "division": "hardware",
-    "titles": ["Head"],
+    "titles": ["Lead"],
     "grad": 2022,
     "majors": ["Mechanical Engineering"],
     "minors": ["Computer Science"],
@@ -57,7 +59,6 @@
   },
   "Yan Luo":
   {
-    "division": "research",
     "titles": ["Member"],
     "grad": 2023,
     "majors": ["Bioengineering"],
@@ -67,7 +68,6 @@
   },
   "Megan Finnegan":
   {
-    "division": "software",
     "titles": ["Graduate Mentor", "Dual PhD Student in Neuroscience and Clinical Psychology"],
     "majors": ["Computational Neuroscience"],
     "minors": ["Machine Learning", "Neuroimaging"],
@@ -76,7 +76,6 @@
   },
   "Gene Wang":
   {
-    "division": "software",
     "titles": ["Member"],
     "grad": 2023,
     "majors": ["Computer Science"],
@@ -86,8 +85,7 @@
   },
   "Ramya Nagapudi":
   {
-    "division": "software",
-    "titles": ["Head"],
+    "titles": ["Lead"],
     "grad": 2022,
     "majors": ["Computer Science"],
     "minors": [],
@@ -105,8 +103,7 @@
   },
   "Anisha Rao":
   {
-    "division": "hardware",
-    "titles": ["Head"],
+    "titles": ["Lead"],
     "grad": 2022,
     "majors": ["Mechanical Engineering"],
     "minors": [],
@@ -115,7 +112,6 @@
   },
   "Siddharth Bhujle":
   {
-    "division": "hardware",
     "titles": ["Member"],
     "grad": 2022,
     "majors": ["Materials Science and Engineering"],
@@ -125,8 +121,7 @@
   },
   "Kavya Sood":
   {
-    "division": "research",
-    "titles": ["Head"],
+    "titles": ["Lead"],
     "grad": 2022,
     "majors": ["Statistics"],
     "minors": [],
@@ -135,7 +130,6 @@
   },
   "Nitish Natarajan":
   {
-    "division": "software",
     "titles": ["Member"],
     "grad": 2022,
     "majors": ["CS + Statistics"],
@@ -145,11 +139,64 @@
   },
   "Jack Watson":
   {
-    "division": "outreach",
     "titles": ["Member"],
     "grad": 2022,
     "majors": ["Aerospace Engineering"],
     "minors": ["Computer Science"],
     "image": "jack-w.png"
+  },
+  "Philip Lutkovsky":
+  {
+    "titles": ["Member"],
+    "grad": 2021,
+    "majors": ["Economics", "Psychology"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/philiplutkovsky/",
+    "image": "philip-l.jpg"
+  },
+  "Claire Rowley":
+  {
+    "titles": ["Co-Lead"],
+    "grad": 2022,
+    "majors": ["Psychology"],
+    "minors": ["Business", "Integrative Biology"],
+    "linkedin": "https://www.linkedin.com/in/claire-rowley-a04113179/",
+    "image": "claire-r.jpg"
+  },
+  "Sohail Khan":
+  {
+    "titles": ["Co-Lead"],
+    "grad": 2022,
+    "majors": ["Computer Science", "Psychology"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/sohailmkhan30/",
+    "image": "sohail-k.jpeg"
+  },
+  "Jennifer Huan":
+  {
+    "titles": ["Member"],
+    "grad": 2023,
+    "majors": ["Anthropology"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/jennifer-huan-3077371a4",
+    "image": "jennifer-h.jpg"
+  },
+  "Vanessa Gonzalex": 
+  {
+    "titles": ["Member"],
+    "grad": 2021,
+    "majors": ["Mollecular & Cellular Biology, Psychology"],
+    "minors": [],
+    "linkedin": "www.linkedin.com/in/vanessa-gonzalez-uiuc",
+    "image": "vanessa-g.jpeg"
+  },
+  "Richard Pryzbek":
+  {
+    "titles": ["Member"],
+    "grad": 2022,
+    "majors": ["Computer Engineering"],
+    "minors": [],
+    "linkedin": "https://www.linkedin.com/in/richard-przybek/",
+    "image": "richard-p.jpg"
   }
 }
